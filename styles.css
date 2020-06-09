@@ -80,7 +80,7 @@ section.intro {
   background-size: cover;
 }
 .info {
-  padding-top: 25%;
+  margin: 0;
   color: white;
 }
 
