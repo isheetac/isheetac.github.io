@@ -1,0 +1,518 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap");
+body {
+  font-family: "Comfortaa", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  padding: 10px 100px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+nav .logo {
+  float: left;
+}
+
+nav .logo img {
+  height: 80px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+nav.colorchange {
+  background: #4b5355;
+}
+
+nav.colorchange ul li a {
+  color: white;
+}
+
+nav .logo {
+  float: left;
+  height: 80px;
+  transition: 0.5s;
+}
+
+nav.colorchange .logo img {
+  padding-top: 3px;
+  height: 70px;
+  cursor: pointer;
+}
+
+nav ul {
+  float: right;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  line-height: 80px;
+  padding: 2px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+  color: #4b5355;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+  color: white;
+  background: #ffc6aa;
+}
+
+/* Home */
+
+section.intro {
+  background: url(images/bigimage/home.png);
+  background-size: cover;
+}
+.info {
+  padding-top: 25%;
+  color: white;
+}
+
+/* About */
+section.about {
+  background: url(images/bigimage/about.png);
+  background-size: cover;
+}
+
+.about-content {
+  margin: 0 30%;
+}
+.about-content h3 {
+  text-align: center;
+  text-justify: inter-word;
+}
+
+.contact-link {
+  text-decoration: none;
+  color: #4b5355;
+  cursor: pointer;
+}
+
+.contact-link:hover {
+  color: black;
+}
+/* Skills */
+section.skills {
+  background: url(images/bigimage/skills.png);
+  background-size: cover;
+  color: white;
+}
+
+.skills-area {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20%;
+}
+
+.skill {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.skill-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.skill-bar {
+  width: 100%;
+  background: #d3d3d3;
+  height: 20px;
+  z-index: -1;
+  border-radius: 100px;
+  position: absolute;
+}
+
+.skill-fill {
+  background: #ffc6aa;
+  height: 20px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 30px;
+  overflow: hidden;
+}
+
+.html {
+  animation: html 3s;
+  width: 90%;
+}
+
+.css {
+  animation: css 3s;
+  width: 90%;
+}
+
+.javascript {
+  animation: javascript 3s;
+  width: 90%;
+}
+
+.reactjs {
+  animation: reactjs 3s;
+  width: 87%;
+}
+
+.nodejs {
+  animation: nodejs 3s;
+  width: 80%;
+}
+
+.sql {
+  animation: sql 3s;
+  width: 83%;
+}
+
+/* Projects */
+section.projects {
+  background: #ffc6aa;
+  background-size: cover;
+}
+
+.card-list-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card {
+  margin: 10px;
+  border: 1px solid #d3d3d3;
+  border-radius: 0.25rem;
+  background-color: #d3d3d3;
+}
+
+.project-img {
+  width: 100%;
+  background-size: cover;
+  min-height: 180px;
+  background-position: center;
+  background-color: #d3d3d3;
+}
+.project-content {
+  padding: 15px;
+  background-color: white;
+}
+.project-button {
+  background: #4b5355;
+  border: 1px solid white;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 0.25rem;
+  color: white;
+}
+
+.project-button:hover {
+  background: #ffc6aa;
+}
+
+.project-link {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Comfortaa", sans-serif;
+}
+
+.project-link:hover {
+  color: #4b5355;
+}
+
+/* Contact */
+section.contact {
+  background: url(images/bigimage/contact.png);
+  background-size: cover;
+}
+form {
+  max-width: 400px;
+  text-align: center;
+  margin: 20px auto;
+}
+input {
+  width: 350px;
+  height: 20px;
+  margin-left: 1rem;
+}
+input,
+label {
+  display: block;
+}
+
+.submitbtn {
+  background: #ffc6aa;
+  height: 40px;
+  width: 80px;
+  border: none;
+  border-radius: 10%;
+  margin-top: 1rem;
+  justify-content: center;
+  text-transform: uppercase;
+  color: #4b5355;
+  font-family: "Comfortaa", sans-serif;
+  cursor: pointer;
+}
+
+.links ul {
+  padding-top: 1rem;
+}
+.links ul li {
+  list-style: none;
+  display: inline;
+  padding-right: 30px;
+}
+.fa-linkedin,
+.fa-github {
+  color: #4b5355;
+}
+
+/* All */
+section.intro,
+.about,
+.projects,
+.contact,
+.skills {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+}
+
+.title {
+  padding-top: 6rem;
+  margin: auto;
+  text-transform: uppercase;
+}
+
+/* Responsive Bar */
+
+.responsive-bar {
+  display: none;
+}
+
+/* Footer */
+
+/* footer p {
+  height: auto;
+  margin: auto;
+  padding-top: 1rem;
+  background: #4b5355;
+  color: white;
+} */
+
+/* Media queries */
+
+@media only screen and (min-width: 768px) {
+  .skill {
+    position: relative;
+    margin-bottom: 10px;
+  }
+  .card-list-wrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .card {
+    width: 350px;
+  }
+
+  .about-content h3 {
+    text-align: center;
+    text-justify: inter-word;
+    font-size: 3vh;
+  }
+}
+@media only screen and(min-width:320px) and (max-width: 375px) {
+  body {
+    height: 100%;
+    width: 100%;
+  }
+  input {
+    margin: auto;
+  }
+  .about-content h3 {
+    font-size: 1vh;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 425px) {
+  .logoimg {
+    display: none;
+  }
+  section.intro {
+    background-image: url(images/bigimage/home.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+  .info {
+    padding-top: 15rem;
+  }
+  nav .logo img {
+    width: 28%;
+    height: auto;
+    padding-top: 5px;
+    padding-left: 5px;
+  }
+  nav.colorchange .logo img {
+    height: auto;
+    width: 25%;
+    padding-top: 5px;
+  }
+  section.intro,
+  .about,
+  .contact,
+  .skills {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+  }
+  .about-content {
+    margin: 0 20%;
+  }
+  .about-content h3 {
+    font-size: 2.5vh;
+  }
+  section.projects {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+  input {
+    margin: auto;
+  }
+  .skill {
+    position: relative;
+    margin-bottom: 2px;
+  }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 1024px) {
+  .logoimg {
+    display: none;
+  }
+  section.intro {
+    background-image: url(images/bigimage/home.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+  }
+
+  .info {
+    text-align: center;
+    padding-top: 16rem;
+  }
+  section.about {
+    background-image: url(images/bigimage/about.png);
+    background-size: cover;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  section.skills {
+    background-image: url(images/bigimage/skills.png);
+    background-size: cover;
+    background-position: 75% 75%;
+    background-repeat: no-repeat;
+  }
+  section.contact {
+    background-image: url(images/bigimage/contact.png);
+    background-size: cover;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  section.projects {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+  .skill {
+    position: relative;
+    margin-bottom: 5px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .responsive-bar {
+    display: block;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 5px 20px;
+    box-sizing: border-box;
+    z-index: 1;
+  }
+  .responsive-bar .menu i {
+    float: right;
+    margin: 0;
+    padding: 0;
+    line-height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  nav,
+  nav.colorchange {
+    background: #4b5355;
+    height: 60px;
+    padding: 0;
+  }
+  nav ul {
+    position: absolute;
+    width: 100%;
+    top: 60px;
+    left: 0;
+    background: #4b5355;
+    float: none;
+    display: none;
+  }
+  nav ul.active {
+    display: block;
+  }
+  nav ul li {
+    width: 100%;
+  }
+  nav ul li a {
+    display: block;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 30px !important;
+    color: white;
+  }
+  nav .logo img {
+    width: 28%;
+    height: auto;
+  }
+  nav.colorchange .logo img {
+    height: auto;
+    width: 25%;
+  }
+  section.projects {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  .info {
+    padding-top: 25%;
+  }
+}
