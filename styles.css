@@ -349,9 +349,6 @@ section.intro,
   .about-content h3 {
     font-size: 1vh;
   }
-  .info {
-    margin-top: 25%;
-  }
 }
 @media only screen and (min-width: 0px) and (max-width: 425px) {
   .logoimg {
