@@ -76,7 +76,7 @@ nav ul li a:hover {
 /* Home */
 
 section.intro {
-  background: url(images/bigimage/home2.png);
+  background: url(images/bigimage/home.png);
   background-size: cover;
 }
 .info {
@@ -356,7 +356,7 @@ section.intro,
     display: none;
   }
   section.intro {
-    background-image: url(images/bigimage/home2.png);
+    background-image: url(images/bigimage/home.png);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -409,7 +409,7 @@ section.intro,
     display: none;
   }
   section.intro {
-    background-image: url(images/bigimage/home2.png);
+    background-image: url(images/bigimage/home.png);
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -517,7 +517,7 @@ section.intro,
     padding-top: 25%;
   }
   section.intro {
-    background-image: url(images/bigimage/home2.png);
+    background-image: url(images/bigimage/home.png);
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
