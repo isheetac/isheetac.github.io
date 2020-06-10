@@ -97,6 +97,8 @@ section.about {
 .about-content h3 {
   text-align: center;
   text-justify: inter-word;
+  font-size: 20px;
+  font-weight: lighter;
 }
 
 .contact-link {
