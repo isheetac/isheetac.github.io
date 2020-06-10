@@ -516,4 +516,10 @@ section.intro,
   .info {
     padding-top: 25%;
   }
+  section.intro {
+    background-image: url(images/bigimage/home2.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+  }
 }
