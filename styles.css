@@ -80,6 +80,7 @@ section.intro {
   background-size: cover;
 }
 .info {
+  padding-top: 25%;
   color: #4b5355;
   font-size: 3vh;
 }
@@ -94,7 +95,6 @@ section.about {
   margin: 0 30%;
 }
 .about-content h3 {
-  z-index: 1000;
   text-align: center;
   text-justify: inter-word;
 }
@@ -515,11 +515,5 @@ section.intro,
 @media only screen and (min-width: 1024px) and (max-width: 1439px) {
   .info {
     padding-top: 25%;
-  }
-  section.intro {
-    background-image: url(images/bigimage/home.png);
-    background-size: cover;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
   }
 }
