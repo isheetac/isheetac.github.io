@@ -76,12 +76,12 @@ nav ul li a:hover {
 /* Home */
 
 section.intro {
-  background: url(images/bigimage/home.png);
+  background: url(images/bigimage/home2.png);
   background-size: cover;
 }
 .info {
-  padding-top: 25%;
-  color: white;
+  color: #4b5355;
+  font-size: 3vh;
 }
 
 /* About */
@@ -94,6 +94,7 @@ section.about {
   margin: 0 30%;
 }
 .about-content h3 {
+  z-index: 1000;
   text-align: center;
   text-justify: inter-word;
 }
